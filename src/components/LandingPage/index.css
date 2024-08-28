@@ -1,0 +1,258 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .Header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+
+    
+  }
+  .heading{
+    font-size: 38px;
+  }
+  .sub-heading{
+    color: #4d4b4b;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+  }
+  .login-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color:#ff4e18;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .login-btn2 {
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .search-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color:#ff4e18;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+.section-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height: 50vh;
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    height: 100px;
+  }
+ 
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .search-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    border: solid .5px #333;
+    margin-top: 10px;
+  }
+  .suggestions-list{
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  li{
+    margin: 5px;
+  }
+  .header-buttons{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+  }
+  
+  .hero {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .search-bar input, .search-bar select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .services {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .service-item .service-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .how-it-works {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+ 
+  }
+  .steps-logo{
+    height: 200px;
+    width: 200px;
+  }
+  
+  .step {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .featured-technicians {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .featured-technicians h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .technician-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .technician-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+
+  }
+  .footer-container{
+    display: flex;
+
+   flex-direction: column;
+   justify-content: space-around;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  
+  }
+  
+  .footer-bottom {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  

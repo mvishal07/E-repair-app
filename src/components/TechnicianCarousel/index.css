@@ -1,0 +1,58 @@
+.technician-carousel-container {
+    margin: 20px auto;
+
+
+  }
+  
+  .carousel-container {
+    padding: 20px;
+    flex-direction: row;
+    
+    
+  }
+  .heading7{
+    margin-left: 5%;
+  }
+  .carousel-item {
+
+
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+  }
+  .technician-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .technician-card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .technician-photo {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .contact-btn {
+    background-color: #fb5114;
+  
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0fb300;
+  }
+  
