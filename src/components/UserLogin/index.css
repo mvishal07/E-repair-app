@@ -10,14 +10,14 @@
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(to right, #222121 0%, #ca43ff 100%);
-    animation: gradient 3s ease infinite;
-    background-size: 200% 200%;
+    background-color: #ffffff;
+
+
   }
   .lg{
-    background-color: #fff9f9;
+    background-color: #ffffff;
     width: 500px;
-    height: 70vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,17 +26,7 @@
     border-radius: 20px;
     
   }
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+
   
   .login-container {
     width: 100%;
@@ -48,17 +38,7 @@
     transform: translateY(20px);
     animation: fadeIn 0.8s ease forwards;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+
   
   .login-container h2 {
     text-align: center;

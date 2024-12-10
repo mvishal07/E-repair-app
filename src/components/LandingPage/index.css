@@ -21,6 +21,47 @@ body {
 
     
   }
+
+  .services{
+    justify-self: flex-start;
+    text-align: left;
+    width: 100%;
+  }
+  .heading-ser{
+    text-align: left;
+    margin-left: 5%;
+
+  }
+
+  .tex{
+    text-align: left;
+    color: #808080;
+    margin-left: 5%;
+  }
+
+  .services-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .app{
+    color: #000000;
+  }
+
+  .appliances{
+    font-size: 30px;
+  }
+
+  .cd1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    text-align: left;
+    color: #6e6e6e;
+  }
   .heading{
     font-size: 38px;
   }
@@ -30,6 +71,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 70%;
   }
+
   .login-btn{
     padding: 10px 20px;
     border: none;
@@ -40,7 +82,12 @@ body {
     border-radius: 5px;
     text-decoration: none;
   }
-  
+  .argon{
+    color: #5f38df;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5%;
+  }
   .login-btn2 {
     background-color: #fbfbfb;
     padding: 10px 20px;
@@ -69,9 +116,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.logo{
-  height: 50vh;
-}
+
   .header {
     display: flex;
     justify-content: space-between;
